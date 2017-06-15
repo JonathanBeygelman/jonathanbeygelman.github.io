@@ -1,0 +1,536 @@
+html,body {
+	width: 100%;
+	background-color: white;
+	overflow-x: hidden;
+	margin: 0;
+	font-family: 'Arvo', sans-serif;
+}
+
+.parallax { 
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+.underline {
+	border-bottom: solid 3px #4B8BDA;
+}
+
+.container {
+	max-width: 1080px;
+	margin: auto;
+}
+
+.pull-right{
+	float: right;
+}
+.pull-left{
+	float: left;
+}
+
+.logo {
+	height: 100px;
+	display: inline;
+	text-align: left;
+	margin-left: 10px;
+	text-shadow: 0 3px 4px rgba(0,0,0,.3);
+	margin-top: 10px;
+}
+
+.logo h2 {
+	text-align: left;
+	margin-top: -52px;
+	font-size: 35px;
+	margin-left: 100px;
+}
+.logo a:hover{
+	display: inline;
+	color: inherit;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+	color: #ADADAD;
+}
+
+.nav ul {
+	list-style-type: none;
+	padding-top: 40px;
+	right: 0px;
+}
+.nav li {
+	display: inline;
+	padding-left: 18px;
+	font-size: 20px;
+	text-shadow: 0 3px 4px rgba(0,0,0,.3);
+}
+
+.header {
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+	padding-top: 20px;
+}
+
+.parallax {
+	background-image: url(images/pet-jumbotron.jpg);
+	height: 800px;
+	background-size: cover;
+	padding-right: 40px;
+}
+
+.main {
+	text-align: left;
+	color: white;
+	padding-top: 220px;
+}
+
+.main h1 {
+	font-size: 70px;
+	text-shadow: 0 3px 4px rgba(0,0,0,.3);
+	padding-bottom: 5px;
+	font-weight: bold;
+	
+}
+.main h3 {
+	font-size: 35px;
+	margin-bottom: -10px;
+	text-shadow: 0 3px 4px rgba(0,0,0,3);
+}
+
+.description {
+	padding-bottom: 100px;
+}
+
+.description h2 {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	font-weight: bold;
+	color: black;
+}
+
+.features {
+	background-color: #;
+	text-align: center;
+	padding: 0 0 125px;
+}
+
+.features h3{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0px 0 80px;
+}
+.feature h4{
+	font-size: 30px;
+	padding: 20px 0 10px;
+	
+}
+.feature p{
+	font-size: 24px;
+	color: #4B8BDA;
+}
+.feature {
+	color: black;
+	display: inline;
+	text-align: center;
+}
+.feature img{
+	background-color: #4B8BDA;
+	height: 200px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	padding: 20px;
+	border-radius: 100px;
+}
+
+
+.why {
+	background-image: url(images/wallpaper.jpg);
+	background-size: cover;
+	text-align: right;
+	width: 100%;
+}
+
+.overlay {
+	background-color: rgba(75, 139, 218, 0.9);
+	padding: 50px 50px 150px 50px;
+}
+
+.content h2{
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	padding: 50px 0 30px;
+}
+
+.content .underline {
+	color: black;
+}
+
+.content h4{
+	color: white;
+	font-size: 22px;
+	padding-bottom: 10px;
+}
+
+.promise {
+	padding: 80px 0 100px;
+}
+
+.promise h2{
+	color: black;
+	font-size: 50px;
+	font-weight: bold;
+	padding: 50px 0 40px;
+	margin-left: 40px;
+}
+
+.promise img {
+	height: 350px;
+	margin-top: 40px;
+}
+
+.promise ul {
+	list-style-type: none;
+	font-size: 22px;
+	padding-top: 40px;
+	margin-left: -40px;
+}
+.promise li {
+	padding: 5px 0;
+	font-weight: 300;
+}
+.about {
+	background-image: url(images/about.jpg);
+	background-size: cover;
+	text-align: right;
+	width: 100%;
+}
+
+.about h2{
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: left;
+	padding: 50px 0 0px;
+	margin-left: 40px;
+}
+
+.about img {
+	height: 350px;
+	margin-top: 130px;
+	margin-left: 0px;
+	background-image: inherit;
+}
+
+.about p {
+	font-size: 22px;
+	margin-left: 40px;
+	text-align: left;
+	color: white;	
+}
+.about #text {
+	padding-left: 80px;;
+}
+
+.about .overlay {
+	background-color: rgba(75, 139, 218, 0.9);
+	padding: 50px 50px 150px 50px;
+}
+
+.contact h2 {
+	color: black;
+	text-align: center;
+	padding: 50px 0 20px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.contact h4 {
+	color: black;
+	text-align: center;
+	padding: 0px 0 80px;
+	font-size: 25px;
+	font-weight: thin;
+}
+
+.contact a:hover {
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+}
+
+.contact {
+	color: black;
+	text-align: center;
+	padding: 50px 0px 100px;
+}
+
+.contact h3 {
+	font-size: 30px;
+}
+
+.contact p {
+	font-size: 20px;
+}
+
+.contact.button a {
+	color: white;
+}
+.contact.button a:hover{
+	color: #4B8BDA;
+}
+
+.button {
+	color: white;
+	text-align: center;
+	padding: 20px 20px;
+	font-size: 22px;
+	font-weight: thin;
+	background-color: black;
+	margin-top: 50px;
+	border: 1px solid black;
+}
+
+.button:hover {
+	background-color: #4B8BDA;
+	border: 1px solid #4B8BDA;
+	transition: 0.3s;
+	color: white;
+}
+
+.direct a {
+	color: white;
+}
+.direct a:hover {
+	color: white;
+}
+
+
+.footer {
+	background-color: #4B8BDA;
+	color: #FFFFFF;
+	-moz-box-shadow: 0 0 10px #AAAAAA;
+	-webkit-box-shadow: 0 0 10px #AAAAAA;
+	box-shadow: 0 0 10px #AAAAAA;
+	bottom: 0;
+	padding-bottom: 10px;
+	padding-right: 50px;
+	overflow-y: hidden;
+}
+
+.footer h3{
+	font-size: 18px;
+	text-align: center;
+	padding: 40px 0 20px;
+	width: 100%;
+}
+
+.footer h3 a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.footer li {
+	display: inline-block;
+	padding: 10px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+	.promise img {
+		margin-top: 90px;
+	}
+	.about img {
+		margin-top: 200px;
+		margin-left: -20px;
+	}
+}
+
+
+@media only screen and (max-width: 1045px) {
+
+	.logo h2 {
+		margin-top: -70px;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.main {
+		padding-left: 15px;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	.logo h2 {
+		margin-left: 130px;
+		margin-top: -50px;
+	}
+	.promise img {
+		margin-top: 40px;
+		margin-bottom: 60px;
+	}
+	 .about img {
+		margin-top: 60px;
+		margin-left: 10px;
+	} 
+	.image {
+		text-align: center;
+	}
+	.about h2 {
+		margin-left: -30px;
+	}
+	.about p {
+		margin-left: -30px;
+	}
+	.main {
+		margin-top: -100px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.main {
+		padding-left: 15px;
+		margin-top: -100px;
+	}	
+	.description {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	.overlay {
+		width: 100%;
+		height: 100%;
+		padding: 50px 0px 150px;
+	}
+	.why {
+		
+	}
+	.why h2{
+		padding-right: 40px
+	}	
+	.why h4{
+		margin-left: 0px;
+		padding-right: 40px;
+		width: 100%;
+	}
+	.about .overlay {
+		width: 100%;
+		height: 100%;
+		padding: 50px 15px 150px 5px;
+	}
+}
+
+@media only screen and (max-width: 840px) {
+	.main {
+		padding-left: 15px;
+	}	
+}
+
+@media only screen and (max-width: 750px) {
+	.logo img {
+		height: 60px;
+	}
+	.logo h2 {
+		font-size: 30px;
+		margin-left: 110px;
+		margin-top: -42px;
+	}
+	.main {
+		text-align: center;
+		margin-top: -100px;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-right: -40px;
+	}
+	
+	.main h1 {
+		font-size: 60px;
+		padding: 0px;
+	}
+	.description {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.overlay {
+		width: 100%;
+		height: 100%;
+		padding: 50px 10px 150px 10px;
+	}
+	.why h2{
+		padding-right: 0px
+	}	
+	.why h4{
+		margin-right: -20px;
+		padding-right: 0px;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 510px) {
+	.logo {
+		margin-left: 0px;
+	}	
+	.logo h2 {
+		margin-left: 90px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.main {
+		text-align: center;
+		margin-top: -100px;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-right: -40px;
+	}
+	
+	.promise img {
+		height: 250px;
+	}
+	.about .overlay {
+		width: 100%;
+		height: 100%;
+		padding: 50px 5px 150px 5px;
+	}
+	 .about img {
+		height: 250px;
+		margin-left: 0px;
+	} 
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
